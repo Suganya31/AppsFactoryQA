@@ -8,8 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "src/test/javaFeatures"
-,glue= {"seleniumgluecode"}
+		features = "src/test/java/features/",
+        glue = {"seleniumgluecode"}
 )
 
 public class checkoutrunner {
